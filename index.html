@@ -2,22 +2,82 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moonseon Yoon Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-    <title>My page</title>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
   </head>
   <body>
-    <p>Moonseon Yoon</p>
-    <p>Front-end Developer</p>
-    <p>Portfolio</p>
-    <a href="https://moonseonyoon.github.io/Tesla">Tesla</a>
-    <a href="https://moonseonyoon.github.io/Crypto-Chart"></a>
-    <a href="https://moonseonyoon.github.io/autocomplete-searchbar"></a>
-    <a href="https://moonseonyoon.github.io/blog-page-mvc_ver"></a>
-    <a href="https://moonseonyoon.github.io/messenger"></a>
-    <a href="https://moonseonyoon.github.io/Pokedex"></a>
-    <a href="https://moonseonyoon.github.io/flip-card"></a>
-    <a href="https://moonseonyoon.github.io/tictactoe"></a>
+    <div class="nav">
+      <div class="contact">
+        <p>Moonseon Yoon</p>
+        <p>Email: moonseonyoon@gmail.com</p>
+      </div>
+      <!-- <p>UX/UI Designer who codes for fun</p> -->
+      <div class="links">
+        <a href="https://www.linkedin.com/in/moonseon-yoon-49ba6b24a/">LinkedIn</a>
+        <a href="https://dribbble.com/usermoonseon">Dribble</a>
+        <a href="https://www.instagram.com/user.moonseon/">Instagram</a>
+        <a href="https://github.com/moonseonyoon">GitHub</a>
+      </div>
+    </div>
+    <div class="overlay">
+      <div class="overlay-header">
+        <div class="col">
+          <h1 id="item-name">Item 1</h1>
+          <p id="item-category">Item Category</p>
+        </div>
+        <div class="col">
+          <p id="close-btn">Close</p>
+        </div>
+      </div>
+      <div class="item-details">
+        <p>
+          <a id="item-link" href="#"
+            ><i class="ph-bold ph-arrow-up-right"></i> View Project</a
+          >
+        </p>
+        <p id="item-copy">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores qui
+          ea, impedit vero provident dolorem distinctio obcaecati quam. Sequi,
+          sed!
+        </p>
+      </div>
+      <div class="img-container">
+        <img id="item-img" src="./img-1.jpg" alt="" />
+      </div>
+    </div>
+    <div class="container">
+      <div class="items">
+        <div class="item">
+          <div class="item-index">01</div>
+          <div class="item-name">FancyClub</div>
+          <div class="item-year">2024</div>
+        </div>
+        <div class="item">
+          <div class="item-index">02</div>
+          <div class="item-name">Catzone</div>
+          <div class="item-year">2023</div>
+        </div>
+        <div class="item">
+          <div class="item-index">03</div>
+          <div class="item-name">Portfolio - client</div>
+          <div class="item-year">2023</div>
+        </div>
+        <div class="item">
+          <div class="item-index">04</div>
+          <div class="item-name">Music UI</div>
+          <div class="item-year">2023</div>
+        </div>
+        <div class="item">
+          <div class="item-index">05</div>
+          <div class="item-name">REVISION</div>
+          <div class="item-year">2023</div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script type="module" src="./main.js"></script>
   </body>
 </html>
+
